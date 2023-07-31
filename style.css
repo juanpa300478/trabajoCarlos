@@ -17,18 +17,24 @@
     color: #fff;
 }
 .contenedor-icono{
-    width: 10em;
+    width: 8em;
+	height: 3em;
     padding: 0%;
     float: right;
-    margin: 1.2em 0.2em;
+    margin: 0.2em 0.9em;
 }
 .icono{
     list-style-type: none;
     display: inline-block;
-    margin-left: 6%;
+    margin: 0.9em 0.1em 0.1em 0.4em;
 }
 .icono-imagen{
     width: 60%;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.icono-imagen:hover {
+	width: 70%;
 }
 /*estylos del menu*/
 .menu-footer{
