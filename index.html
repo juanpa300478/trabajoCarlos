@@ -21,29 +21,82 @@
             </li>
         </ul>  
     </header>
+    <!--formulario-->
+    <div class="contenedor_formulario">
+        <div class="cuadrado_formulario"></div>
+        <div class="contenedor_input">
+            <div class="grupo_input">
+                <label for="nombre">nombre</label>
+                <input type="text" id="nombre" name="nombre"/>
+            </div>
+            <div class="grupo_input">
+                <label for="apellido">apellido</label>
+                <input type="text" id="apellido" name="apellido"/>
+            </div>
+            <div class="grupo_input">
+                <label for="correo">correo</label>
+                <input type="email" id="correo" name="correo"/>
+            </div>
+            <div class="grupo_telefono">
+                <span>telefono</span>
+                <br/><br/>
+                <label for="">codigo</label>
+                <select name="codigo pais" id="codigo pais">
+                    <option value="+93">Afganistán (+93)</option><option value="+355">Albania (+355)</option>
+                    <option value="+49">Alemania (+49)</option><option value="+376">Andorra (+376)</option>
+                    <option value="+244">Angola (+244)</option><option value="+966">Arabia saudita (+966)</option>
+                    <option value="+213">Argelia (+213)</option><option value="+54">Argentina (+54)</option>
+                    <option value="+374">Armenia (+374)</option><option value="+61">Australia (+61)</option>
+                    <option value="+43">Austria (+43)</option><option value="+994">Azerbaiyán (+994)</option>
+                    <option value="+1">Bahamas (+1)</option><option value="+880">Bangladés (+880)</option>
+                    <option value="+973">Barein (+973)</option><option value="+32">Bélgica (+32)</option>
+                    <option value="+501">Belice (+501)</option><option value="+375">Bielorrusia (+375)</option>
+                    <option value="+591">Bolivia (+591)</option><option value="+387">Bosnia (+387)</option>
+                    <option value="+55">Brasil (+55)</option><option value="+359">Bulgaria (+359)</option>
+                    <option value="+855">Camboya (+855)</option><option value="+237">Camerún (+237)</option>
+                    <option value="+1">Canada (+1)</option><option value="+974">Catar (+974)</option>
+                    <option value="+56">Chile (+56)</option><option value="+86">China (+86)</option>
+                    <option value="+57">Colombia (+57)</option><option value="+506">Costa rica (+506)</option>
+                    <option value="+53">Cuba (+53)</option><option value="+385">Croacia (+385)</option>
+                    <option value="+593">Ecuador (+593)</option><option value="+20">Egipto (+20)</option>
+                    <option value="+34">España (+34)</option><option value="+1">EEUU (+1)</option>
+                    <option value="+33">Francia (+33)</option><option value="+502">Guatemala (+502)</option>
+                    <option value="+509">Haití (+509)</option><option value="+504">Honduras (+504)</option>
+                    <option value="+36">Hungria (+36)</option><option value="+595">Paraguay (+595)</option>
+                    <option value="+51">Peru (+51)</option><option value="+58">Venezuela (+58)</option>
+                    <option value="+507">Panama (+507)</option><option value="+7">Rusia (+7)</option>
+
+                </select>
+                <label for="num">num</label>
+                <input type="number" id="num" name="num"/>
+            </div>
+            <div class="grupo_genero">
+                <span>genero</span>
+                <br/><br/>
+                <label for="M">M</label>
+                <input type="checkbox" id="M" name="M"/>
+                <label for="F">F</label>
+                <input type="checkbox" id="F" name="F"/>
+                <label for="otros">otros</label>
+                <input type="checkbox" id="otros" name="otros"/>
+            </div>
+            <div class="grupo_input date">
+                <label for="fecha_nacimiento">fecha nacimiento</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"/>
+            </div>
+            <input class="boton" type="submit" value="guardar"/>
+        </div>
+    </div>
     <!--codigo de el menu-->
     <footer class="menu-footer">
     <nav id='menu'>
         <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
         <ul>
-          <li><a href='http://'>Home</a></li>
-          <li><a class='dropdown-arrow' href='http://'>Products</a>
-            <ul class='sub-menus'>
-              <li><a href='http://'>Products 1</a></li>
-              <li><a href='http://'>Products 2</a></li>
-              <li><a href='http://'>Products 3</a></li>
-              <li><a href='http://'>Products 4</a></li>
-            </ul>
-          </li>
-          <li><a href='http://'>About</a></li>
-          <li><a class='dropdown-arrow' href='http://'>Services</a>
-            <ul class='sub-menus'>
-              <li><a href='http://'>Services 1</a></li>
-              <li><a href='http://'>Services 2</a></li>
-              <li><a href='http://'>Services 3</a></li>
-            </ul>
-          </li>
-          <li><a href='http://'>Contact Us</a></li>
+          <li><a href='http://'>Inicio</a></li>
+          <li><a href='http://'>Productos</a></li>
+          <li><a href='http://'>Ayuda</a></li>
+          <li><a href='http://'>Servicio</a></li>
+          <li><a href='http://'>Contacto</a></li>
         </ul>
       </nav>
     </footer>
